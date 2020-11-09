@@ -1,0 +1,14 @@
+.albums-page {
+  color: bisque;
+  padding: 100px 50px;
+}
+.albums-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media screen and (max-width: 960px) {
+  .albums-grid {
+    grid-template-columns: 1fr;
+  }
+}

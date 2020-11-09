@@ -1,0 +1,18 @@
+.individual-album {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, #0082c8 25%, #0082c8 50%);
+  padding: 10px;
+  height: 150px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.album-title {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.album-cts {
+  font-size: small;
+}

@@ -1,0 +1,14 @@
+.posts-page {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  width: 80vw;
+  top: 80px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.posts-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
